@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para mi mejor amiga 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ESTRELLAS
+    ========================= -->
+
+    <div id="estrellas"></div>
+
+
+    <!-- =========================
+         PANTALLA INICIAL
+    ========================= -->
+
+    <main id="inicio">
+
+        <h1>para mi mejor amiga 💗</h1>
+
+        <p>tengo algo para ti...</p>
+
+        <button onclick="abrirCarta()">
+            abrir 💗
+        </button>
+
+    </main>
+
+
+    <!-- =========================
+         CARTA
+    ========================= -->
+
+    <section id="carta" class="oculto">
+
+        <div class="sobre" onclick="abrirSobre()">
+
+            <div class="solapa"></div>
+
+            <div class="papel">
+                💌
+            </div>
+
+        </div>
+
+        <p class="texto-sobre">
+            haz clic en el sobre...
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         SORPRESA / MENSAJE
+    ========================= -->
+
+    <section id="sorpresa" class="oculto">
+
+        <div class="mensaje-final">
+
+            <h2>una última cosa...</h2>
+
+
+            <!-- FOTO -->
+
+            <img
+                src="fotos/amiga.png"
+                alt="Un recuerdo"
+                class="foto-recuerdo"
+            >
+
+
+            <!-- MENSAJE -->
+
+            <p>
+                quiero que sepas que aprecio muchísimo tu amistad
+                y todo lo que has hecho por mí. de verdad agradezco
+                cada momento, cada conversación y cada vez que
+                estuviste ahí cuando te necesité.
+            </p>
+
+            <p>
+                también quiero agradecerte especialmente por haberme
+                ayudado con todo lo de Val. aunque al final las cosas
+                no terminaron como yo esperaba, nunca voy a olvidar
+                que estuviste ahí para escucharme, aconsejarme y
+                apoyarme durante todo eso.
+            </p>
+
+            <p>
+                eres una persona muy importante para mí y espero que
+                nunca dudes de que puedes contar conmigo. no importa
+                lo que pase ni por lo que estés pasando, siempre voy
+                a intentar estar ahí para ti, escucharte y apoyarte
+                de la misma forma en que tú lo has hecho conmigo.
+            </p>
+
+            <p>
+                gracias por ser mi amiga, por todos los momentos que
+                hemos compartido y simplemente por estar ahí. espero
+                que nuestra amistad siga por muchísimo tiempo.
+            </p>
+
+
+            <!-- BOTON FINAL -->
+
+            <button onclick="mostrarFinal()">
+                una última cosa...
+            </button>
+
+        </div>
+
+
+        <!-- =========================
+             FINAL
+        ========================= -->
+
+        <div id="final-pagina" class="final-pagina">
+
+            <h2>
+                gracias por estar aquí.
+            </h2>
+
+            <p>
+                de verdad espero que nuestra amistad<br>
+                dure muchísimo tiempo.
+            </p>
+
+            <div class="final-brillo">
+                ✦
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
